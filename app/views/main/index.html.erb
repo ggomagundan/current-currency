@@ -29,13 +29,13 @@
               <% cur_info = cur.last %>
 
               <p>
-                현재가 : <%= cur_info["last"] %> (한화 : <%= number_with_delimiter(@krw.to_f * cur_info["last"].to_f.round(4)) %> )
+                현재가 : <%= cur_info["last"] %> (한화 : <%= number_with_delimiter((@krw.to_f * cur_info["last"].to_f).round(4)) %> )
               </p>
               <p>
-                고가 : <%= cur_info["high24hr"] %> (한화 : <%= number_with_delimiter(@krw.to_f * cur_info["high24hr"].to_f.round(4)) %> )
+                고가 : <%= cur_info["high24hr"] %> (한화 : <%= number_with_delimiter((@krw.to_f * cur_info["high24hr"].to_f).round(4)) %> )
               </p>
               <p>
-                저가 : <%= cur_info["low24hr"] %> (한화 : <%= number_with_delimiter(@krw.to_f * cur_info["low24hr"].to_f.round(4)) %> )
+                저가 : <%= cur_info["low24hr"] %> (한화 : <%= number_with_delimiter((@krw.to_f * cur_info["low24hr"].to_f).round(4)) %> )
               </p>
 
             </div>
