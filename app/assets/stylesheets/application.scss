@@ -1,0 +1,25 @@
+ @import "bootstrap";
+ @import "toastr";
+ @import "font-awesome";
+
+ #content{
+   padding-bottom: 250px;
+ }
+
+ footer{
+
+   position: fixed;
+   bottom:0;
+   background: #eeeeee;
+   width:100%;
+   padding:  1rem;
+   ul{
+
+     list-style: none;
+     li {
+       margin-bottom: 1rem;
+     }
+
+   }
+
+ }

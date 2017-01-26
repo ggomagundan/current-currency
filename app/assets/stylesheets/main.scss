@@ -1,0 +1,42 @@
+// Place all the styles related to the main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.current-currency{
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.coinone-currencies{
+  margin-bottom: 1rem;
+  .coinone-currency{
+    width: 20%;
+    margin-right: 5%;
+    padding: 0.5rem 1.5rem;
+  }
+}
+
+.currency-items{
+  .currency-item{
+
+    margin-bottom: 1.5rem;
+
+  }
+}
+
+.krw-rate-items{
+  display:flex;
+  flex: column wrap;
+
+  .krw-rate-item{
+
+    flex: 1 0 33%;
+    margin-bottom: 1rem;
+
+
+  }
+}
+
+

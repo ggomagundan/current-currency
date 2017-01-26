@@ -1,0 +1,25 @@
+<div class="col-sm-12">
+  <div class="col-sm-6 offset-sm-3 badge badge-warning current-currency">
+    <%= @date  %> 기준 1 달러당 <%= number_with_delimiter(@krw.to_f) %> 원
+  </div>
+</div>
+
+<% if @coinone_list["errorCode"] ==  "0" %>
+  <% btc = @coinone_list["btc"] %>
+  <% eth = @coinone_list["eth"] %>
+  <% etc = @coinone_list["etc"] %>
+
+  <div class="col-sm-12 coinone-currencies">
+    <div class="badge badge-primary coinone-currency">
+      CoinOne BTC: <%= number_with_delimiter(btc["last"]) %>
+    </div>
+
+    <div class="badge badge-primary coinone-currency">
+      CoinOne ETH: <%= number_with_delimiter(eth["last"]) %>
+    </div>
+
+    <div class="badge badge-primary coinone-currency">
+      CoinOne ETC: <%= number_with_delimiter(etc["last"]) %>
+    </div>
+  </div>
+<% end %>    
