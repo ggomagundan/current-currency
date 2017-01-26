@@ -57,7 +57,7 @@ gem 'exception_notification'
 #gem 'redis'
 #gem 'redis-rails'
 #gem 'redis-objects'
-g#em 'sidekiq'
+#gem 'sidekiq'
 
 gem 'nifty-generators'
 gem 'hirb'
