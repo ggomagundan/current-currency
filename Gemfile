@@ -54,10 +54,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'exception_notification'
 
-gem 'redis'
-gem 'redis-rails'
-gem 'redis-objects'
-gem 'sidekiq'
+#gem 'redis'
+#gem 'redis-rails'
+#gem 'redis-objects'
+g#em 'sidekiq'
 
 gem 'nifty-generators'
 gem 'hirb'
