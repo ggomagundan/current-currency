@@ -5,7 +5,7 @@ class TelegramsController < ApplicationController
 
   require 'telegram/bot'
 
-  @@token = '373364325:AAGZyou3h7fkszjY432tHv9cyEIdxS5xm2w'
+  @@token = ENV['TELEGRAM_BOT_TOKEN']
 
   @@bot = Telegram::Bot::Client.new(@@token)
 
@@ -46,7 +46,6 @@ class TelegramsController < ApplicationController
  if chat_id.blank?
    toss_error(params)
  else
-   bot = Telegram::Bot::Client.new('373364325:AAGZyou3h7fkszjY432tHv9cyEIdxS5xm2w')
    text = params[:message][:text]
    case text
      when '/start'

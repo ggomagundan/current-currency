@@ -22,3 +22,10 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+$ curl -XPOST https://api.telegram.org/bot#{BOT_API}/setWebhook\?url\=https://current-currency.herokuapp.com/telegrams
+
+$ curl -XGET https://api.telegram.org/bot#{BOT_API}/getWebhookInfo
+
+

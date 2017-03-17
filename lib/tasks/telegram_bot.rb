@@ -1,6 +1,6 @@
 require 'telegram/bot'
 
-token = '373364325:AAGZyou3h7fkszjY432tHv9cyEIdxS5xm2w'
+token = ENV['TELEGRAM_BOT_TOKEN']
 
 help_msg = "Hello, Ethereum Traders\n /buy : Best Cheap Exchange \n /sell : Best Expensive Exchange \n /now : Current Prices\n"
 
