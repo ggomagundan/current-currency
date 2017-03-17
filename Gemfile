@@ -112,7 +112,7 @@ gem 'clipboard-toastr-rails'
 
 gem "font-awesome-rails"
 
-gem "coinone", path: "/Users/kai/Copy/projects/rails/coinone", group: :development
+#gem "coinone", path: "/Users/kai/Copy/projects/rails/coinone", group: :development
 
 gem 'telegram-bot-ruby'
 

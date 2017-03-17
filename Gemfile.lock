@@ -7,14 +7,6 @@ GIT
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
 
-PATH
-  remote: /Users/kai/Copy/projects/rails/coinone
-  specs:
-    coinone (0.4.r2r220)
-      addressable (~> 2.5)
-      json (~> 2.0.0, >= 2.0.0)
-      rest-client (~> 2.0, >= 2.0.1)
-
 GEM
   remote: https://rubygems.org/
   remote: https://rails-assets.org/
@@ -109,8 +101,6 @@ GEM
       railties (>= 4.1.0, < 5.1)
       responders
       warden (~> 1.2.3)
-    domain_name (0.5.20170223)
-      unf (>= 0.0.5, < 1.0.0)
     dotenv (2.2.0)
     dotenv-rails (2.2.0)
       dotenv (= 2.2.0)
@@ -267,8 +257,6 @@ GEM
       activesupport (>= 4.1.0)
     hashie (3.5.5)
     hirb (0.7.3)
-    http-cookie (1.0.3)
-      domain_name (~> 0.5)
     i18n (0.8.1)
     ice_nine (0.11.2)
     inflecto (0.0.2)
@@ -312,7 +300,6 @@ GEM
     net-sftp (2.1.2)
       net-ssh (>= 2.6.5)
     net-ssh (4.1.0)
-    netrc (0.11.0)
     nifty-generators (0.4.6)
     nio4r (2.0.0)
     nokogiri (1.7.0.1)
@@ -373,10 +360,6 @@ GEM
       trollop (~> 2.1)
     responders (2.3.0)
       railties (>= 4.2.0, < 5.1)
-    rest-client (2.0.1)
-      http-cookie (>= 1.0.2, < 2.0)
-      mime-types (>= 1.16, < 4.0)
-      netrc (~> 0.8)
     rubocop (0.47.1)
       parser (>= 2.3.3.1, < 3.0)
       powerpack (~> 0.1)
@@ -425,9 +408,6 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.1.4)
       execjs (>= 0.3.0, < 3)
-    unf (0.1.4)
-      unf_ext
-    unf_ext (0.0.7.2)
     unicode-display_width (1.1.3)
     virtus (1.0.5)
       axiom-types (~> 0.1)
@@ -459,7 +439,6 @@ DEPENDENCIES
   carrierwave-ftp
   clipboard-toastr-rails
   coffee-rails (~> 4.2)
-  coinone!
   daemons
   delayed_job_active_record
   devise
