@@ -19,24 +19,32 @@
   </div>
   <div class="row currency-items">
     <% @cur_list.sort().each do |cur| %>
-      <% if cur.first  =~ /USDT_[A-Z]+/ %>
-        <div class="col-sm-6 col-xs-12">
+      <% if cur.first  =~ /[USDT,BTC]_[A-Z]+/ %>
+        <div class="col-sm-4 col-xs-12">
           <div class="card currency-item">
             <div class="card-header">
               <%= cur.first.gsub "_", " -> " %>
+              <% is_btc = cur.first.split("_").first == "BTC" %>
             </div>
             <div class="card-block">
               <% cur_info = cur.last %>
 
               <p>
-                현재가 : <%= cur_info["last"] %> (한화 : <%= number_with_delimiter((@krw.to_f * cur_info["last"].to_f).round(4)) %> )
+                현재가 : <%= cur_info["last"] %>
               </p>
+              <p>
+                (한화 : 
+                <%= number_with_delimiter((@krw.to_f * cur_info["last"].to_f).round(4)) if !is_btc %>
+                <%= number_with_delimiter((@btc_price.to_f * cur_info["last"].to_f).round(4)) if is_btc %> )
+              </p>
+              <!--
               <p>
                 고가 : <%= cur_info["high24hr"] %> (한화 : <%= number_with_delimiter((@krw.to_f * cur_info["high24hr"].to_f).round(4)) %> )
               </p>
               <p>
                 저가 : <%= cur_info["low24hr"] %> (한화 : <%= number_with_delimiter((@krw.to_f * cur_info["low24hr"].to_f).round(4)) %> )
               </p>
+              -->
 
             </div>
           </div>

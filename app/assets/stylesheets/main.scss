@@ -10,11 +10,28 @@
 }
 
 .coinone-currencies{
-  margin-bottom: 1rem;
+  padding: 0;
+  margin-bottom: 2rem;
   .coinone-currency{
-    width: 20%;
-    margin-right: 5%;
+    width: 21%;
+    margin-right: 3%;
     padding: 0.5rem 1.5rem;
+  }
+  @media (max-width: 992px) { 
+    .coinone-currency{
+      width: 40%;
+      margin-right: 5%;
+      margin-bottom: .5rem;
+      padding: 0.5rem 1.5rem;
+    }
+  }
+  @media (max-width: 767px) { 
+
+    .coinone-currency{
+      width: 100%;
+      margin-bottom: .5rem;
+      padding: 0.5rem 1.5rem;
+    }
   }
 }
 

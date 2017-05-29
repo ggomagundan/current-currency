@@ -8,6 +8,7 @@
   <% btc = @coinone_list["btc"] %>
   <% eth = @coinone_list["eth"] %>
   <% etc = @coinone_list["etc"] %>
+  <% xrp = @coinone_list["xrp"] %>
 
   <div class="col-sm-12 coinone-currencies">
     <div class="badge badge-primary coinone-currency">
@@ -20,6 +21,10 @@
 
     <div class="badge badge-primary coinone-currency">
       CoinOne ETC: <%= number_with_delimiter(etc["last"]) %>
+    </div>
+
+    <div class="badge badge-primary coinone-currency">
+      CoinOne XRP: <%= number_with_delimiter(xrp["last"]) %>
     </div>
   </div>
 <% end %>    

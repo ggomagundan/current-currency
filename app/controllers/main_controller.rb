@@ -22,6 +22,7 @@ class MainController < ApplicationController
 
     source = "https://api.coinone.co.kr/ticker/?currency=all"
     @coinone_list = JSON.load(open(source))
+    @btc_price = @coinone_list["btc"]["last"]
 
   end
 end

@@ -11,5 +11,7 @@ ready =->
   $(".addr-copy").click ->
     toastr.info "Copy Success Alert"
 
+  
+
 $( document ).on 'turbolinks:load', ->
   ready()
