@@ -78,7 +78,7 @@ gem 'kaminari',  github: "amatsuda/kaminari", branch: '0-17-stable'
 
 gem "mocha"
 
-gem "devise"
+gem "devise", ">= 4.7.1"
 
 gem 'nested_form'
 
