@@ -67,8 +67,8 @@ gem 'nifty-generators'
 gem 'hirb'
 gem 'mysql2'#, '~> 0.3.18'
 
-gem 'carrierwave'
-gem 'carrierwave-ftp', :require => 'carrierwave/storage/sftp' # SFTP only
+gem 'carrierwave', '>= 2.1.1'
+gem 'carrierwave-ftp', '>= 0.4.1', :require => 'carrierwave/storage/sftp' # SFTP only
 gem 'fog'
 
 gem 'whenever'
