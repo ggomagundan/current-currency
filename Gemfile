@@ -8,7 +8,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.2.4.3'
+gem 'rails', '6.0.3.5'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 
@@ -67,9 +67,9 @@ gem 'nifty-generators'
 gem 'hirb'
 gem 'mysql2'#, '~> 0.3.18'
 
-gem 'carrierwave'
-gem 'carrierwave-ftp', :require => 'carrierwave/storage/sftp' # SFTP only
-gem 'fog', '>= 2.2.0'
+gem 'carrierwave', '>= 2.1.1'
+gem 'carrierwave-ftp', '>= 0.4.1', :require => 'carrierwave/storage/sftp' # SFTP only
+gem 'fog'
 
 gem 'whenever'
 gem 'koala'
