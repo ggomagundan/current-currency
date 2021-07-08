@@ -69,10 +69,10 @@ gem 'mysql2'#, '~> 0.3.18'
 
 gem 'carrierwave', '>= 2.1.1'
 gem 'carrierwave-ftp', '>= 0.4.1', :require => 'carrierwave/storage/sftp' # SFTP only
-gem 'fog'
+gem 'fog', '>= 2.2.0'
 
 gem 'whenever'
-gem 'koala'
+gem 'koala', '>= 3.0.0'
 gem 'pry'
 gem 'kaminari',  github: "amatsuda/kaminari", branch: '0-17-stable'
 
@@ -113,7 +113,7 @@ gem 'clipboard-toastr-rails'
 
 gem "font-awesome-rails", ">= 4.7.0.5"
 
-gem "coinone"#, path: "/Users/kai/Copy/projects/rails/coinone", group: :development
+gem "coinone", ">= 0.9.0" #, path: "/Users/kai/Copy/projects/rails/coinone", group: :development
 
 gem 'telegram-bot-ruby'
 
