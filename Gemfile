@@ -15,6 +15,7 @@ gem 'rails', '5.2.6.2'
 gem 'pg', group: :production
 gem 'sqlite3', group: :development
 # Use Puma as the app server
+
 gem 'puma', '~> 4.3', '>= 4.3.11'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.1', '>= 5.1.0'
