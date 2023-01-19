@@ -8,7 +8,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '6.0.4.6'
+gem 'rails', '6.1.7.1'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 
@@ -31,7 +31,7 @@ gem 'jquery-rails', '>= 4.4.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.5'
+gem 'jbuilder', '~> 2.10', '>= 2.10.0'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
@@ -85,7 +85,7 @@ gem 'nested_form'
 
 gem 'brakeman' # For check Secitury
 
-gem 'delayed_job_active_record'
+gem 'delayed_job_active_record', '>= 4.1.5'
 gem 'daemons'
 
 gem 'bootstrap', '~> 4.3.1'
@@ -98,7 +98,7 @@ gem 'md-date-time-picker-rails'
 
 # gem 'rails_emoji', '~> 1.8.0'
 
-gem 'dotenv-rails', '>= 2.7.5'
+gem 'dotenv-rails', '>= 2.7.6'
 
 gem 'skylight', group: :production
 
@@ -112,7 +112,7 @@ gem 'lograge', '>= 0.11.2'
 
 gem 'clipboard-toastr-rails'
 
-gem "font-awesome-rails", ">= 4.7.0.5"
+gem "font-awesome-rails", ">= 4.7.0.6"
 
 gem "coinone"#, path: "/Users/kai/Copy/projects/rails/coinone", group: :development
 
