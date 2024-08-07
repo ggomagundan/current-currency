@@ -88,7 +88,7 @@ gem 'brakeman' # For check Secitury
 gem 'delayed_job_active_record'
 gem 'daemons'
 
-gem 'bootstrap', '~> 4.3.1'
+gem 'bootstrap', '~> 5.0.0'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
