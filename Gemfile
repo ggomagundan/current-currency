@@ -104,7 +104,7 @@ gem 'skylight', group: :production
 
 gem 'rails-controller-testing', '>= 1.0.4', group: :test
 
-gem 'rubocop', require: false,  group: :development
+gem 'rubocop', '>= 1.66.0', require: false, group: :development
 
 gem 'searchkick'
 
