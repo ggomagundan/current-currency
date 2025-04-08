@@ -106,7 +106,7 @@ gem 'rails-controller-testing', '>= 1.0.4', group: :test
 
 gem 'rubocop', require: false,  group: :development
 
-gem 'searchkick'
+gem 'searchkick', '>= 5.5.0'
 
 gem 'lograge', '>= 0.11.2'
 
