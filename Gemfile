@@ -8,7 +8,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '6.0.4.6'
+gem 'rails', '7.1.5.2'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 
@@ -85,7 +85,7 @@ gem 'nested_form'
 
 gem 'brakeman' # For check Secitury
 
-gem 'delayed_job_active_record'
+gem 'delayed_job_active_record', '>= 4.1.7'
 gem 'daemons'
 
 gem 'bootstrap', '~> 4.3.1'
