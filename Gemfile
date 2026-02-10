@@ -70,10 +70,10 @@ gem 'mysql2'#, '~> 0.3.18'
 
 gem 'carrierwave', '>= 2.1.1'
 gem 'carrierwave-ftp', '>= 0.4.1', :require => 'carrierwave/storage/sftp' # SFTP only
-gem 'fog'
+gem 'fog', '>= 2.3.0'
 
 gem 'whenever'
-gem 'koala'
+gem 'koala', '>= 3.3.0'
 gem 'pry'
 gem 'kaminari',  github: "amatsuda/kaminari", branch: '0-17-stable'
 
@@ -106,7 +106,7 @@ gem 'rails-controller-testing', '>= 1.0.4', group: :test
 
 gem 'rubocop', require: false,  group: :development
 
-gem 'searchkick'
+gem 'searchkick', '>= 4.4.0'
 
 gem 'lograge', '>= 0.11.2'
 
@@ -116,5 +116,5 @@ gem "font-awesome-rails", ">= 4.7.0.5"
 
 gem "coinone"#, path: "/Users/kai/Copy/projects/rails/coinone", group: :development
 
-gem 'telegram-bot-ruby'
+gem 'telegram-bot-ruby', '>= 0.13.0'
 
